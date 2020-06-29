@@ -1,0 +1,50 @@
+/********* Author: Dalbir Singh  **************/
+/**********************************************/
+// css for footer container 
+// to place logo and other navigation column
+/**********************************************/
+
+.site-footer {
+    background-color: $color__background-footer;
+    border-top: 2px solid $color__green-dark2;
+}
+
+.site-footer-container {
+    padding: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+
+
+    &>div {
+        min-width: 150px;
+    }
+
+    &>div:first-of-type {
+        padding: 1rem;
+        text-align: center;
+        flex-grow: 1;
+        flex-basis: 100%;
+
+        @media screen and (min-width: 800px) {
+            text-align: left;
+            flex-grow: 1;
+            flex-basis: 33%;
+        }
+    }
+
+    nav {
+        margin: 0 1rem;
+
+        h3 {
+            margin-top: 0;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+    }
+}
