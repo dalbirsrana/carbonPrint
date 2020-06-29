@@ -1,0 +1,28 @@
+These dependencies are required to be installed.
+
+#design library
+1. npm i npm i @material-ui/core 
+
+#used for routing pages
+2. npm i react-router-dom
+
+#sass implementation
+3. npm i node-sass
+
+#implementation database queries (Not Required)
+4. npm install mysql
+
+#nodeJS server framework (Not Required)
+5. npm i express
+
+#circular image dependency
+6. npm i react-rounded-image (Not required)
+
+# drop down list
+7. npm i react-super-select
+
+# google charts
+8. npm i react-google-charts
+
+# canvasJS charts  (for customization canvasJS docs:https://canvasjs.com/docs/charts/chart-options/axisx/margin/)
+9. npm install canvasjs
